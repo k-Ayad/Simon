@@ -1,0 +1,206 @@
+
+/*-----------------NAV--------------------*/
+
+@media screen and (max-width:970px) {
+        
+    .nav-hidden-content
+    {
+        color: white;
+        
+        width: 66.66666667%;
+        
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+    }
+
+    .nav-hidden-content button
+    {
+        background: none;
+        border: none;
+        color: white;
+        padding: 0;
+        margin: 0;
+        
+    }
+
+    .nav-hidden-content button i
+    {
+        font-size: 30px;
+        
+    }
+
+    .nav-content
+    {
+        display: none;
+    }
+}
+
+/*--------------HOME---------------------*/
+@media screen and (max-width:770px) {
+   
+
+        .content
+        {
+            width: 450px;
+        }
+
+        .content h2 
+        {
+            font-size: 40px;
+            
+            
+        }
+}
+
+/*----------------About-------------------*/
+@media screen and (max-width:970px)
+{
+    
+    .about-text
+    {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .about-list
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .about-content
+    {
+        padding: 0% 5% ;
+    }
+}
+
+@media screen and (max-width:800px)
+{
+    .grid-item
+    {
+        width: 50%;
+        padding: 10px;
+    }
+
+
+    .media-border-button
+    {
+        border-bottom: 1px #eaeaea solid;
+    }
+
+    .media-no-border-right
+    {
+        border-right: none;
+    }
+}
+
+/*------------------------Services-------------------------------*/
+
+@media screen and (max-width:970px)
+{
+    .service-item
+    {
+        width: 90%;
+        
+    }
+
+
+    
+}
+
+/*------------------------------resume--------------------------------*/
+
+@media screen and (max-width:970px)
+{
+    
+    .resume-content
+    {
+        flex-wrap: wrap;
+    }
+        
+    .education
+    {
+        width: 99%;
+        padding: 0px 3%;
+    }
+
+    .experience
+    {
+        width: 99%;
+
+        padding: 0px 3%;
+    }
+
+    
+    .skill-item
+    {
+        width: 100%;
+    }
+}
+
+/*------------------------------portfilo---------------------*/
+@media screen and (max-width:790px)
+{
+        
+    .port-column
+    {
+        width: 100%;
+    }
+}
+
+
+/*---------------------------------------clint-----------------*/
+@media screen and (max-width:970px)
+{    
+    .clint-item
+    {
+        width: 90%;
+    }
+
+        
+    .clint-content
+    {
+       
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+/*----------------------------------------------------------*/
+@media screen and (max-width:1410px)and (min-width:971px)
+{
+        
+    .chat
+    {
+        width:  60%;
+        
+    }
+        
+    .info
+    {
+        width:30%;
+    }
+}
+
+@media screen and (max-width:970px)
+{
+    .chat
+    {
+        width:  100%;
+        
+    }
+        
+    .info
+    {
+        width:100%;
+    }
+    
+    .contact-content
+    {
+        flex-wrap: wrap;
+    }
+}
